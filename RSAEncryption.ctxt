@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=RSAEncryption
+comment0.text=\r\n\ Generates\ keys\ for\ RSA\ encryption.\r\n\ \r\n\ RSA\ gives\ each\ user\ two\ keys\:\r\n\ \ \ \ \ \ 1.\ public,\ \ can\ be\ freely\ shared\r\n\ \ \ \ \ \ 2.\ private,\ should\ never\ be\ shared\r\n\ This\ is\ why\ RSA\ is\ referred\ to\ as\ an\ <i>asymmetric<i>\ cryptographic\ algorithm\ -\ it\ relies\r\n\ on\ an\ asymmetry\ of\ knowledge\ between\ the\ sender\ and\ receiver.\r\n\ \r\n\ The\ keys\ are\ simply\ two\ integers,\ conventionally\ denoted\ d\ (public)\ and\ e\ (private).\ They\ \r\n\ arise\ from\ the\ equation\ de\ \u00E2\u2030\u00A1\ 1\ (mod\ \u00CF\u2020(n)),\ where\ n\ is\ a\ semiprime\ and\ \u00CF\u2020\ the\ totient\ \r\n\ function,\ i.e.,\ the\ count\ of\ values\ below\ n\ coprime\ to\ n.\r\n\ \r\n\ If\ m\ <\ n\ is\ an\ integer\ representing\ a\ message,\ then\ the\ sender\ can\ calculate\ c\ \=\ m^e\ %\ n.\ \r\n\ To\ decrypt\ it,\ the\ receiver\ uses\ d,\ the\ unique\ positive\ integer\ (excepting\ multiples)\ such\ that\ m\ \=\ c^d\ %\ n.\r\n\ \r\n\ To\ crack\ the\ cipher,\ an\ attack\ must\ factor\ n\ so\ that\ they\ can\ recover\ d\ from\ de\ \u00E2\u2030\u00A1\ 1\ (mod\ \u00CF\u2020(n)).\ \r\n\ (\u00CF\u2020(n)\ \=\ (p-1)(q-1),\ where\ pq\ \=\ n.)\ No\ fast\ (polynomial-time)\ factoring\ algorithm\ exists\ yet.\r\n\ \r\n\ There\ are\ several\ weaknesses\ to\ "textbook"\ RSA,\ as\ implemented\ in\ this\ class.\ For\ example,\ it\ is\ trivial\r\n\ for\ modern\ computers\ to\ brute-force\ decipher\ by\ finding\ i\ such\ that\ (m\ +\ i\ *\ n)\ ^\ (1/e)\ \=\ m.\ Also,\r\n\ this\ class\ merely\ performs\ a\ letter-by-letter\ substitution\ cipher,\ which\ can\ be\ easily\ broken\ by\ frequency\r\n\ analysis,\ just\ like\ a\ Caesar\ cipher.\ This\ class\ should\ be\ taken\ as\ a\ proof\ of\ concept\ of\ RSA,\ not\ a\ viable\r\n\ encryption\ scheme.\r\n\ \r\n\ \r\n\ https\://simple.wikipedia.org/wiki/RSA_(algorithm)\r\n\ https\://www.reddit.com/r/crypto/comments/42mx48/brute_force_textbook_rsa/\r\n
+comment1.params=text
+comment1.target=void\ print(java.lang.String)
+comment2.params=
+comment2.target=RSAEncryption()
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ RSAEncryption\r\n
+comment3.params=
+comment3.target=void\ generateKeys()
+comment4.params=m
+comment4.target=int\ encrypt(int)
+comment5.params=c
+comment5.target=int\ decrypt(int)
+comment6.params=s
+comment6.target=java.lang.String\ encrypt(java.lang.String)
+comment7.params=s
+comment7.target=java.lang.String\ decrypt(java.lang.String)
+comment8.params=m
+comment8.target=boolean\ chk(int)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

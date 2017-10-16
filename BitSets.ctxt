@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BitSets
+comment1.params=
+comment1.target=void\ main()
+comment2.params=bits\ n
+comment2.target=java.util.BitSet\ leftShift(java.util.BitSet,\ int)
+comment3.params=bits
+comment3.target=java.lang.Iterable\ asIterable(java.util.BitSet)
+comment4.params=b
+comment4.target=byte\ rotateLeft(byte)
+numComments=5

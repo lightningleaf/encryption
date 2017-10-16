@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=NumberTheory
+comment1.params=x\ m
+comment1.target=int\ modinv(int,\ int)
+comment1.text=\r\n\ Computes\ y\ such\ that\ xy\ \=\ 1\ (mod\ m).\r\n
+comment2.params=x\ m
+comment2.target=int\ posmod(int,\ int)
+comment2.text=\r\n\ Computes\ the\ positive\ remainder\ of\ x\ /\ m.\ \r\n\ \r\n\ I.e.,\ if\ x\ %\ m\ <\ 0\ then\ this\ returns\ x\ %\ m\ +\ m.\r\n
+comment3.params=x\ y
+comment3.target=int[]\ egcd(int,\ int)
+comment3.text=\r\n\ Computes\ a\ set\ of\ coefficients\ (a,b)\ for\ Bezout's\ identity,\ ax\ +\ by\ \=\ gcd(x,\ y).\r\n
+comment4.params=x\ y
+comment4.target=int\ gcd(int,\ int)
+comment5.params=m\ n
+comment5.target=int\ gcd_recur(int,\ int)
+comment6.params=b\ e\ m
+comment6.target=int\ modexp(int,\ int,\ int)
+numComments=7

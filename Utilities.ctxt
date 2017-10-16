@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Utilities
+comment1.params=prompt\ ans\ actual
+comment1.target=void\ test(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=n
+comment2.target=java.lang.String\ superscript(int)
+comment2.text=\r\n\ Converts\ an\ integer\ into\ a\ string\ of\ superscripted\ numerals\ representing\ it.\r\n
+comment3.params=bs
+comment3.target=int\ joinBytes(byte[])
+comment4.params=bs
+comment4.target=long\ boolsToLong(boolean[])
+comment4.text=\r\n\ Converts\ an\ array\ of\ booleans\ into\ a\ long\ by\ treating\ the\ booleans\ as\ bits.\r\n\ \r\n\ The\ number\ is\ constructed\ in\ read\ order.\r\n
+comment5.params=x\ m
+comment5.target=int\ posmod(int,\ int)
+comment6.params=i
+comment6.target=byte\ safeByteCast(int)
+comment7.params=l
+comment7.target=byte\ safeByteCast(long)
+comment8.params=n
+comment8.target=byte\ safeByteCast(java.lang.Number)
+comment9.params=os
+comment9.target=java.lang.String\ coefficientsToPolynomial(java.lang.Object[])
+numComments=10

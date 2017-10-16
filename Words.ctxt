@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Words
+comment1.params=i
+comment1.target=byte[]\ bytesOf(int)
+comment2.params=i\ littleEndian
+comment2.target=byte[]\ bytesOf(int,\ boolean)
+comment3.params=w\ i
+comment3.target=byte\ getByte(int,\ int)
+comment4.params=bs
+comment4.target=int\ joinBytes(byte[])
+comment5.params=bs\ littleEndian
+comment5.target=int\ joinBytes(byte[],\ boolean)
+numComments=6

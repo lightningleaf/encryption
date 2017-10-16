@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=UtilitiesTest
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ UtilitiesTest\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=i
+comment2.target=java.lang.String\ zeroPaddedBinaryString(int)
+numComments=3

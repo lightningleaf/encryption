@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=GF2PP
+comment1.params=
+comment1.target=GF2PP()
+comment2.params=cfs
+comment2.target=GF2PP(GF2P[])
+comment3.params=cfs
+comment3.target=GF2PP(int[])
+comment4.params=cfs
+comment4.target=GF2PP(byte[])
+comment5.params=
+comment5.target=byte[]\ toByteArray()
+comment6.params=other
+comment6.target=GF2PP\ add(GF2PP)
+comment7.params=other
+comment7.target=GF2PP\ multiply(GF2PP)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=obj
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=10
